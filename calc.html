@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div id="container">
+        <input type="display" readonly id="display">
+        <div class="kays">
+            <button onclick="apendtodisplay('+')" class="operator_btn">+</button>
+            <button onclick="apendtodisplay('7')">7</button>
+            <button onclick="apendtodisplay('8')">8</button>
+            <button onclick="apendtodisplay('9')">9</button>
+            <button onclick="apendtodisplay('-')" class="operator_btn">-</button>
+            <button onclick="apendtodisplay('4')">4</button>
+            <button onclick="apendtodisplay('5')">5</button>
+            <button onclick="apendtodisplay('6')">6</button>
+            <button onclick="apendtodisplay('*')" class="operator_btn">*</button>
+            <button onclick="apendtodisplay('1')">1</button>
+            <button onclick="apendtodisplay('2')">2</button>
+            <button onclick="apendtodisplay('3')">3</button>
+            <button onclick="apendtodisplay('/')" class="operator_btn">/</button>
+            <button onclick="apendtodisplay('0')">0</button>
+            <button onclick="apendtodisplay('.')">.</button>
+            <button onclick="calc('=')">=</button>
+            <button onclick="cleardisplay()" class="operator_btn">C</button>
+        </div>
+        
+        
+        <script src="calc.js"></script>
+    </div>
+</body>
+</html>
